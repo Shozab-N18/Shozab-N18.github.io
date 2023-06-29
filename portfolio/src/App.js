@@ -5,7 +5,7 @@ import About from './components/header/about/About';
 import Skills from './components/header/skills/Skills';
 import Services from './components/header/services/Services';
 import Contact from './components/header/contact/Contact';
-
+import ScrollUp from './components/header/scrollup/ScrollUp';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Skills/>
         <Services/>
         <Contact/>
+        <ScrollUp/>
       </main>
     </div>
   );
