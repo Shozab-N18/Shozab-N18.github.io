@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fb14898e.css",
-    "main.js": "/portfolio/static/js/main.93be9008.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Computer Science CV.pdf": "/portfolio/static/media/Computer Science CV.1adad4b6dbe7c9a867fc.pdf",
-    "static/media/cat-pfp.jpg": "/portfolio/static/media/cat-pfp.00d4e622aba72219b263.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.fb14898e.css.map": "/portfolio/static/css/main.fb14898e.css.map",
-    "main.93be9008.js.map": "/portfolio/static/js/main.93be9008.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.82c30638.css",
+    "main.js": "/static/js/main.002a970f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Computer Science CV.pdf": "/static/media/Computer Science CV.1adad4b6dbe7c9a867fc.pdf",
+    "static/media/cat-pfp.jpg": "/static/media/cat-pfp.00d4e622aba72219b263.jpg",
+    "index.html": "/index.html",
+    "main.82c30638.css.map": "/static/css/main.82c30638.css.map",
+    "main.002a970f.js.map": "/static/js/main.002a970f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb14898e.css",
-    "static/js/main.93be9008.js"
+    "static/css/main.82c30638.css",
+    "static/js/main.002a970f.js"
   ]
 }
