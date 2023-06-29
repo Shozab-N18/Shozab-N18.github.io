@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/%7BShozab-N18.github.io%7D/static/css/main.395d6cb1.css",
-    "main.js": "/%7BShozab-N18.github.io%7D/static/js/main.9a5f8243.js",
-    "static/js/787.1ed0c42c.chunk.js": "/%7BShozab-N18.github.io%7D/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Computer Science CV.pdf": "/%7BShozab-N18.github.io%7D/static/media/Computer Science CV.1adad4b6dbe7c9a867fc.pdf",
-    "static/media/cat-pfp.jpg": "/%7BShozab-N18.github.io%7D/static/media/cat-pfp.00d4e622aba72219b263.jpg",
-    "index.html": "/%7BShozab-N18.github.io%7D/index.html",
-    "main.395d6cb1.css.map": "/%7BShozab-N18.github.io%7D/static/css/main.395d6cb1.css.map",
-    "main.9a5f8243.js.map": "/%7BShozab-N18.github.io%7D/static/js/main.9a5f8243.js.map",
-    "787.1ed0c42c.chunk.js.map": "/%7BShozab-N18.github.io%7D/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Shozab-N18.github.io/static/css/main.1fd14985.css",
+    "main.js": "/Shozab-N18.github.io/static/js/main.8bc29184.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Shozab-N18.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Computer Science CV.pdf": "/Shozab-N18.github.io/static/media/Computer Science CV.1adad4b6dbe7c9a867fc.pdf",
+    "static/media/cat-pfp.jpg": "/Shozab-N18.github.io/static/media/cat-pfp.00d4e622aba72219b263.jpg",
+    "index.html": "/Shozab-N18.github.io/index.html",
+    "main.1fd14985.css.map": "/Shozab-N18.github.io/static/css/main.1fd14985.css.map",
+    "main.8bc29184.js.map": "/Shozab-N18.github.io/static/js/main.8bc29184.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Shozab-N18.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.395d6cb1.css",
-    "static/js/main.9a5f8243.js"
+    "static/css/main.1fd14985.css",
+    "static/js/main.8bc29184.js"
   ]
 }
