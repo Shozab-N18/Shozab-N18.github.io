@@ -6,7 +6,9 @@ const ProjectItems = ({item}) => {
       <img src={item.image} alt="" className='project__img' />
       <h3 className='project__title'>{item.title}</h3>
 
-      <a href="" className="project__button">
+      <h3 className='project__description'>{item.description}</h3>
+
+      <a href='#portfolio' className="project__button">
         Demo <i className="bx bx-right-arrow-alt project__button-icon"></i>
       </a>
     </div>
