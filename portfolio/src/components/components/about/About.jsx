@@ -16,7 +16,12 @@ const About = () => {
             <div className="about__data">
                 <Info/>
 
-                <p className="about__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="about__description">
+                  I am a 20 year old university student fueled by a strong desire to gain practical experience as quickly as possible.
+                  I am eager to apply the valuable skills and knowledge I have acquired throughout my studies with industries to develop creative applications. <br/>
+                  <br/>
+                  My goal is to accelerate my learning curve and elevate my experience, embracing every opportunity to bridge the gap between academia and the industrial world.
+                </p>
                 
                 <a href={CV} download="CV.pdf" className="button button--flex">
                     Download CV
