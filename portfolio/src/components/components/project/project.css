@@ -46,6 +46,7 @@
 }
 
 .project__description {
+    width: 295px;
     font-size:  var(--small-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
@@ -107,7 +108,8 @@
         grid-template-columns: 1fr;
     }
 
-    .project__img {
+    .project__img,
+    .project__description {
         width: 100%;
     }
 }

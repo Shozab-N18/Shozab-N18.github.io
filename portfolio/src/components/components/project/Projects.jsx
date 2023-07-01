@@ -11,11 +11,11 @@ const Projects = () => {
 
   useEffect(() => {
     if(item.name === "all") {
-      setProjects(projectsData);
+      setProjects(projectsData.sort((P1 , P2) => P1.id < P2.id));
     }
 
     else {
-      const newProjects = projectsData.filter((project) => {
+      const newProjects = projectsData.sort((P1 , P2) => P1.id < P2.id).filter((project) => {
         return project.category === item.name;
       });
       setProjects(newProjects);

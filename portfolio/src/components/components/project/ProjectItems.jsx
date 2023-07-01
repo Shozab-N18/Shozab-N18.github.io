@@ -9,7 +9,7 @@ const ProjectItems = ({item}) => {
       <h3 className='project__description'>{item.description}</h3>
 
       <a href='#portfolio' className="project__button">
-        Demo <i className="bx bx-right-arrow-alt project__button-icon"></i>
+        More Info <i className="bx bx-right-arrow-alt project__button-icon"></i>
       </a>
     </div>
   )
