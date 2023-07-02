@@ -8,9 +8,19 @@ const ProjectItems = ({item}) => {
 
       <h3 className='project__description'>{item.description}</h3>
 
-      <a href='#portfolio' className="project__button">
-        More Info <i className="bx bx-right-arrow-alt project__button-icon"></i>
-      </a>
+      <span className="project__link">
+        <a href={item.github} target="_blank" rel="noreferrer"><i class='bx bxl-github'></i></a>
+
+        <a href='#portfolio' className="project__button">
+          Live Demo <i class="uil uil-external-link-alt"></i>
+        </a>
+
+        <a href='#portfolio' className="project__button">
+          More Info <i className="bx bx-right-arrow-alt project__button-icon"></i>
+        </a>
+      </span>
+
+      
     </div>
   )
 }

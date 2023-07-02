@@ -5,7 +5,7 @@ import HB from "../../../assets/HABITAT-SIMULATION.png";
 import TA from "../../../assets/text-adventure.jpg";
 import Wallet from "../../../assets/Wallet.jpeg";
 
-export const projectsData = [    
+export const project_list = [    
     {
         id: 1,
         image: TA,
@@ -33,6 +33,7 @@ export const projectsData = [
         title: "Music School Management System",
         description: "Simplify student lesson scheduling with our user-friendly software. Students can easily book lessons based on their preferred time slots and teachers. All bookings will be in a pending state until confirmed by an admin user with privileged access, ensuring smooth coordination and efficient management of lesson schedules.",
         category: "web",
+        github: "https://github.com/AFaverooo/Koala"
     },
     {
         id: 5,
@@ -49,7 +50,7 @@ export const projectsData = [
         category: "web",
     },
 
-]
+].sort((P1, P2) => P2.id - P1.id);
 
 export const projectsNav = [
     {

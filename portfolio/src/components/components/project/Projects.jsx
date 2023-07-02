@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { projectsNav } from './Data';
-import { projectsData } from './Data';
+import { projectsNav, project_list } from './Data';
 import ProjectItems from './ProjectItems';
 
 
@@ -11,14 +10,12 @@ const Projects = () => {
 
   useEffect(() => {
     if(item.name === "all") {
-      setProjects(projectsData.sort((P1 , P2) => P1.id < P2.id));
+      setProjects(project_list);
     }
 
     else {
-      const newProjects = projectsData.sort((P1 , P2) => P1.id < P2.id).filter((project) => {
-        return project.category === item.name;
-      });
-      setProjects(newProjects);
+      const updated_list = project_list.filter((project) => project.category === item.name);
+      setProjects(updated_list);
     }
   }, [item])
 

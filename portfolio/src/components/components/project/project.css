@@ -15,6 +15,24 @@
     text-transform: capitalize;
 }
 
+.project__link {
+    color: var(--subtitle-color);
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+    margin-top: auto;
+}
+
+.bxl-github {
+    color: gray;
+}
+
+.bxl-github:hover {
+    color: var(--title-color);
+    cursor: pointer;
+    font-size: var(--normal-font);
+}
+
 .project__item:hover {
     background-color: var(--title-color);
     color: var(--container-color);
@@ -31,6 +49,8 @@
     border: 1px solid rgba(0,0,0,0.1);
     padding: 1.25rem;
     border-radius: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .project__img {
@@ -54,11 +74,15 @@
 }
 
 .project__button {
-    color: var(--title-color);
+    color: var(--subtitle-color);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+}
+
+.project__button:hover {
+    color: var(--title-color);
 }
 
 .project__button-icon {
