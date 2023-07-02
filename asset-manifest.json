@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.69dca6d0.css",
-    "main.js": "/static/js/main.87eff28a.js",
+    "main.css": "/static/css/main.01431502.css",
+    "main.js": "/static/js/main.529502af.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Computer Science CV.pdf": "/static/media/Computer Science CV.1adad4b6dbe7c9a867fc.pdf",
     "static/media/PROPVIEWER.png": "/static/media/PROPVIEWER.655b0b94d5e8fd126056.png",
@@ -13,12 +13,12 @@
     "static/media/c++-icon.png": "/static/media/c++-icon.1240ce157b70fb399c6c.png",
     "static/media/cat-pfp.jpg": "/static/media/cat-pfp.00d4e622aba72219b263.jpg",
     "index.html": "/index.html",
-    "main.69dca6d0.css.map": "/static/css/main.69dca6d0.css.map",
-    "main.87eff28a.js.map": "/static/js/main.87eff28a.js.map",
+    "main.01431502.css.map": "/static/css/main.01431502.css.map",
+    "main.529502af.js.map": "/static/js/main.529502af.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69dca6d0.css",
-    "static/js/main.87eff28a.js"
+    "static/css/main.01431502.css",
+    "static/js/main.529502af.js"
   ]
 }
