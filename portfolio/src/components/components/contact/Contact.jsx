@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Contact Me</h2>
-        <p className="section__subtitle ">Contact me if you have a project proposal in mind, would like to work on a project with me or just want to say hello!</p>
+        <p className="section__subtitle container grid">Contact me if you have a project proposal in mind, would like to work on a project with me or just want to say hello!</p>
 
         <div className="contact__container container grid">
             <div className="contact__content">
