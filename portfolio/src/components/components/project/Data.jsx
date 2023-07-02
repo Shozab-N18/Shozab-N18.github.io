@@ -3,7 +3,7 @@ import MSMS from "../../../assets/MSMS.png";
 import PROPVIEWER from "../../../assets/PROPVIEWER.png";
 import HB from "../../../assets/HABITAT-SIMULATION.png";
 import TA from "../../../assets/text-adventure.jpg";
-
+import Wallet from "../../../assets/Wallet.jpeg";
 
 export const projectsData = [    
     {
@@ -36,7 +36,7 @@ export const projectsData = [
     },
     {
         id: 5,
-        image: construction,
+        image: Wallet,
         title: "Crypto Wallet Application",
         description: "Your comprehensive financial analysis app. Connect your bank, stocks, and crypto accounts to gain real-time insights into your balances. Track and visualize balance fluctuations through sophisticated line charts, empowering you to make informed financial decisions. Stay in control of your finances with ease and convenience.",
         category: "app",

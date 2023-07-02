@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Contact Me</h2>
-        <span className="section__subtitle">Message me if you have a project proposal in mind or would like to work on a project with me.</span>
+        <p className="section__subtitle ">Contact me if you have a project proposal in mind, would like to work on a project with me or just want to say hello!</p>
 
         <div className="contact__container container grid">
             <div className="contact__content">
@@ -49,7 +49,7 @@ const Contact = () => {
                         <h3 className="contact__card-title">Messenger</h3>
                         <span className="contact__card-data">user.fb123</span>
 
-                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="/" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
             </div>

@@ -43,13 +43,13 @@
 }
 
 /* Active Link */
-.active_link,
+.active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
 }
 
 /* CHANGE BACKGROUND HEADER */
-.scroll-header {
+.show-header {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
