@@ -83,6 +83,7 @@
 
 .project__button:hover {
     color: var(--title-color);
+    font-weight: 500;
 }
 
 .project__button-icon {
