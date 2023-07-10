@@ -41,6 +41,7 @@ export const project_list = [
         title: "Crypto Wallet Application",
         description: "Your comprehensive financial analysis app. Connect your bank, stocks, and crypto accounts to gain real-time insights into your balances. Track and visualize balance fluctuations through sophisticated line charts, empowering you to make informed financial decisions. Stay in control of your finances with ease and convenience.",
         category: "app",
+        github: "https://github.com/AbbasBinVakas/Wallet-In-One"
     },
     {
         id: 6,
@@ -48,6 +49,7 @@ export const project_list = [
         title: "Cookify",
         description: "Under Construction...",
         category: "web",
+        github: "https://github.com/Shozab-N18/cookify"
     },
 
 ].sort((P1, P2) => P2.id - P1.id);
