@@ -44,18 +44,18 @@ const Contact = () => {
                     </div>
 
                     <div className="contact__card">
-                        <i className="bx bxl-messenger contact__card-icon"></i>
+                        <i className="bx bxl-linkedin-square contact__card-icon"></i>
 
-                        <h3 className="contact__card-title">Messenger</h3>
-                        <span className="contact__card-data">user.fb123</span>
+                        <h3 className="contact__card-title">LinkedIn</h3>
+                        <span className="contact__card-data">Shozab Anwar Siddique</span>
 
-                        <a href="/" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="https://www.linkedin.com/in/shozab-anwar-siddique-106606275/" className="contact__button">Connect <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
             </div>
 
             <div className="contact__content">
-                <h3 className="contact__title">Request Me your project</h3>
+                <h3 className="contact__title">Project Proposal Details</h3>
 
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
