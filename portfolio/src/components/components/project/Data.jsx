@@ -4,6 +4,7 @@ import PROPVIEWER from "../../../assets/PROPVIEWER.png";
 import HB from "../../../assets/HABITAT-SIMULATION.png";
 import TA from "../../../assets/text-adventure.jpg";
 import Wallet from "../../../assets/Wallet.jpeg";
+import Pacman from "../../../assets/pacman.png";
 
 export const project_list = [    
     {
@@ -45,6 +46,14 @@ export const project_list = [
     },
     {
         id: 6,
+        image: Pacman,
+        title: "Pacman",
+        description: "Pacman AI built with an MDP solver. The MDP solver uses value iteration to find the optimal policy for the pacman to take. Parameters in code can be fine-tuned to change the behaviour of the pacman. The pacman can be made to be more aggressive, more defensive, or more random.",
+        category: "app",
+        github: "https://github.com/Shozab-N18/6CCS3AIN-Pacman-MDP-solver"
+    },
+    {
+        id: 7,
         image: construction,
         title: "Cookify",
         description: "Under Construction...",
