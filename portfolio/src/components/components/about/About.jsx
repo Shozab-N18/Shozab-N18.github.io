@@ -17,7 +17,7 @@ const About = () => {
                 <Info/>
 
                 <p className="about__description">
-                  I am a 20-year-old CS Bachelors university student fueled by a strong desire to gain practical experience as quickly as possible.
+                  I am a 21-year-old Computer Science university student fueled by a strong desire to gain practical experience as quickly as possible.
                   I am eager to apply the valuable skills and knowledge I have acquired throughout my studies in a industry setting to develop meaningful applications. <br/>
                   <br/>
                   My goal is to accelerate my learning curve and elevate my experience, embracing every opportunity to bridge the gap between academia and the industrial world.
