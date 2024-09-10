@@ -17,10 +17,9 @@ const About = () => {
                 <Info/>
 
                 <p className="about__description">
-                  I am a 21-year-old Computer Science university student fueled by a strong desire to gain practical experience as quickly as possible.
-                  I am eager to apply the valuable skills and knowledge I have acquired throughout my studies in a industry setting to develop meaningful applications. <br/>
+                  I am a 21-year-old Computer Science Graduate from King's College London, holding a First-Class degree and driven by a strong passion for applying my academic knowledge in a practical, industry setting. My aim is to leverage the skills and insights I’ve gained through my studies to contribute to the development of impactful and innovative applications. <br/>
                   <br/>
-                  My goal is to accelerate my learning curve and elevate my experience, embracing every opportunity to bridge the gap between academia and the industrial world.
+                  Eager to accelerate my learning curve, I am committed to embracing every opportunity to bridge the gap between academia and the professional world, and to grow as a software developer by tackling real-world challenges.
                 </p>
                 
                 <a href={CV} download="CV.pdf" className="button button--flex">

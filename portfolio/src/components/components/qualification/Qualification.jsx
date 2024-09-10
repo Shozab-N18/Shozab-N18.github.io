@@ -29,6 +29,25 @@ const Qualification = () => {
             <div className="qualification__sections">
                 <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
                     <div className="qualification__data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        
+                        <div>
+                            <h3 className="qualification__title">Graduated with 1st in Computer Science</h3>
+                            <span className="qualification__subtitle">London - King's College London</span>
+
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>
+                            </div> Sept 2023 - August 2024
+                        </div>
+
+                    </div>
+                    
+                    <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title"> React JS Development</h3>
                             <span className="qualification__subtitle">London - King's College London</span>

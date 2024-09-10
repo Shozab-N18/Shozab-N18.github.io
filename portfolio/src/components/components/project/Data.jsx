@@ -5,6 +5,8 @@ import HB from "../../../assets/HABITAT-SIMULATION.png";
 import TA from "../../../assets/text-adventure.jpg";
 import Wallet from "../../../assets/Wallet.jpeg";
 import Pacman from "../../../assets/pacman.png";
+import AutomataToolkit from "../../../assets/chooseStateSimulator.png";
+import RaceCarDataProcessingApplication from "../../../assets/raceCarDataApplication.png";
 
 export const project_list = [    
     {
@@ -46,6 +48,22 @@ export const project_list = [
     },
     {
         id: 6,
+        image: construction,
+        title: "Cookify",
+        description: "Under Construction...",
+        category: "web",
+        github: "https://github.com/Shozab-N18/cookify"
+    },
+    {
+        id: 7,
+        image: RaceCarDataProcessingApplication,
+        title: "RaceCarDataProcessingApplication",
+        description: "The RaceCarDataProcessingApplication is a C# .NET application designed to process race car data. It reads data from a file, applies predefined conditions to the data, calculates new data channels, and plots the results.",
+        category: "app",
+        github: "https://github.com/Shozab-N18/MGP-ASSIGNMENT"
+    },
+    {
+        id: 8,
         image: Pacman,
         title: "Pacman",
         description: "Pacman AI built with an MDP solver. The MDP solver uses value iteration to find the optimal policy for the pacman to take. Parameters in code can be fine-tuned to change the behaviour of the pacman. The pacman can be made to be more aggressive, more defensive, or more random.",
@@ -53,12 +71,12 @@ export const project_list = [
         github: "https://github.com/Shozab-N18/6CCS3AIN-Pacman-MDP-solver"
     },
     {
-        id: 7,
-        image: construction,
-        title: "Cookify",
-        description: "Under Construction...",
-        category: "web",
-        github: "https://github.com/Shozab-N18/cookify"
+        id: 9,
+        image: AutomataToolkit,
+        title: "Automata Animated Visual Toolkit",
+        description: "The Automata-Animated-Visual-Toolkit is a Java-based tool designed to help students and educators understand the fundamentals of automata theory. It provides an animated visual toolkit for simulating both deterministic and non-deterministic finite automata (DFA and NFA). The toolkit allows users to create, visualize, and simulate automata in a user-friendly environment.",
+        category: "app",
+        github: "https://github.com/Shozab-N18/Automata-Animated-Visual-Toolkit"
     },
 
 ].sort((P1, P2) => P2.id - P1.id);
