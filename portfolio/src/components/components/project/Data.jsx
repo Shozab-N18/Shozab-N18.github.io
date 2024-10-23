@@ -15,13 +15,15 @@ export const project_list = [
         title: "Pyramid Hunt",
         description: "Text-based pyramid exploration game. Gather artifacts, interact with NPC's, and teleport through rooms. Victory requires the most coveted treasures. Unravel mysteries, emerge triumphant, and become a legend.",
         category: "other",
+        github: "https://github.com/Shozab-N18/Pyramid-Hunt"
     },
     {
         id: 2,
         image: HB,
-        title: "Habitat Simulator",
+        title: "Predator Prey Simulator",
         description: "Witness the evolution of an ecosystem over time through captivating visuals. Simulate the effects of natural disasters, weather patterns, limited food supply, and evolutionary traits to understand the potential outcomes on the ecosystem. Gain valuable insights into the delicate balance of nature and explore the fascinating interplay of environmental factors.",
         category: "app",
+        github: "https://github.com/Shozab-N18/Predator-Prey-Simulator"
     },
     {
         id: 3,
@@ -29,6 +31,7 @@ export const project_list = [
         title: "London Property Marketplace",
         description: "Find your dream home in London with ease. Explore a large property database, compare vibrant neighborhoods, and access essential statistics for an informed decision-making process.",
         category: "app",
+        github: "https://github.com/Shozab-N18/London-Property-Viewer"
     },
     {
         id: 4,
@@ -44,7 +47,7 @@ export const project_list = [
         title: "Crypto Wallet Application",
         description: "Your comprehensive financial analysis app. Connect your bank, stocks, and crypto accounts to gain real-time insights into your balances. Track and visualize balance fluctuations through sophisticated line charts, empowering you to make informed financial decisions. Stay in control of your finances with ease and convenience.",
         category: "app",
-        github: "https://github.com/AbbasBinVakas/Wallet-In-One"
+        github: "https://github.com/Shozab-N18/Wallet-In-One"
     },
     {
         id: 6,
