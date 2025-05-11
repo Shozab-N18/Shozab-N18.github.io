@@ -4,12 +4,12 @@ import ProjectItems from './ProjectItems';
 
 
 const Projects = () => {
-  const [item, setItem] = useState({name: "all"});
+  const [item, setItem] = useState({ name: "all" });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
-    if(item.name === "all") {
+    if (item.name === "all") {
       setProjects(project_list);
     }
 
@@ -20,28 +20,28 @@ const Projects = () => {
   }, [item])
 
   const handleClick = (e, index) => {
-    setItem({name: e.target.textContent});
+    setItem({ name: e.target.textContent });
     setActive(index);
   }
 
   return (
     <div>
-       <div className="project__filters">
-          {projectsNav.map((item,index) => {
-              return <span 
-                onClick={(e) => {handleClick(e,index);} } 
-                className={`${active === index ? 'active-project': ''} project__item`} 
-                key={index}>
-                  {item.name}
-                </span>;
-          })}
-        </div>
+      <div className="project__filters">
+        {projectsNav.map((item, index) => {
+          return <span
+            onClick={(e) => { handleClick(e, index); }}
+            className={`${active === index ? 'active-project' : ''} project__item`}
+            key={index}>
+            {item.name}
+          </span>;
+        })}
+      </div>
 
-        <div className="project__container container grid">
-            {projects.map((item) => {
-                return <ProjectItems item={item} key={item.id} />;
-            })}
-        </div> 
+      <div className="project__container container grid">
+        {projects.map((item) => {
+          return <ProjectItems item={item} key={item.id} />;
+        })}
+      </div>
     </div>
   )
 }
